@@ -3,192 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foodie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="wrapper">
-        <!-- Page 1 -->
-        <div id="page1">
-            <nav id="navbar">           
-                <p id="navcont1">Foodie</p>           
-                <div id="navcont2">            
-                    <a href="">Categories</a>
-                    <a href="">Restaurants</a>
-                    <a href="">Offers</a>
-                    <a href="">Testimonials</a>
-                    <a href="">App</a>
-                </div>
 
-                <div id="navcont3">           
-                    <button class="navcont3btn" id="navcont3btn1">Login</button>            
-                    <button class="navcont3btn" id="navcont3btn2">Sign Up</button>
-                </div>
-            </nav>
+<div id="wrapper">
 
-            <div id="page1cont2">
-                <div id="page1cont2leftbox">
-                    <h1>Delicious food,</h1>
-                    <h1>delivered to you</h1>
-                    <p>Order from your favorite restaurants and get your<br>meal delivered fast, fresh and hot. Discover the best <br> food in your city with Foodie!</p>
-                    <button id="page1cont2leftboxbtn">Order Now</button>          
-                </div>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <p id="navcont1">Foodie</p>
 
-                <div id="page1cont2leftbox">
-                    <img src="foodie.png" alt="">
-                </div>        
-            </div>
-
-            <div id="page1cont2Inputbox">
-                <input type="text" style="height: 30px; width: 300px;" placeholder="  Enter Your Location"/> 
-                <select style="height: 30px; width: 300px;">
-                    <option>&nbsp;All Categories</option>   
-                    <option>Dinner</option>   
-                    <option>Lunch</option>   
-                    <option>BreakFast</option>   
-                </select>
-                <button>Search</button>
-            </div>
+        <div id="navcont2">
+            <a href="">Categories</a>
+            <a href="">Restaurants</a>
+            <a href="">Offers</a>
+            <a href="">Testimonials</a>
+            <a href="">App</a>
         </div>
 
-        <!-- page 2 -->
-        <div id="page2">
-            <h1>Browse By Category</h1>
-            <div id="page2categories">
-                <div class="page2categorybox">
-                    <img src="Pizza.jpg" width="70" height="70">
-                    <p>Pizza</p>
-                </div>
+        <div id="navcont3">
+            <button id="navcont3btn1">Login</button>
+            <button id="navcont3btn2">Sign Up</button>
+        </div>
+    </nav>
 
-                <div class="page2categorybox">
-                    <img src="Burger.jpg" width="70" height="70">
-                    <p>Burgers</p>
-                </div>
+    <!-- Hero Section -->
+    <div id="page1">
+        <div id="page1cont2">
 
-                <div class="page2categorybox">
-                    <img src="Sushi.jpg" width="70" height="70">
-                    <p>Sushi</p>
-                </div>
-                
-                <div class="page2categorybox">
-                    <img src="Indian.jpg" width="70" height="70">
-                    <p>Indian</p>
-                </div>
+            <div id="page1cont2leftbox">
+                <h1>Delicious food,</h1>
+                <h1>delivered to you</h1>
 
-                <div class="page2categorybox">
-                    <img src="Chinese.jpg" width="70" height="70">
-                    <p>Chinese</p>
-                </div>
+                <p>
+                    Order from your favorite restaurants and get your
+                    meal delivered fast, fresh and hot. Discover the best
+                    food in your city with Foodie!
+                </p>
 
-                <div class="page2categorybox">
-                    <img src="Desserts.jpg" width="70" height="70">
-                    <p>Desserts</p>
-                </div>
-
+                <button id="page1btn">Order Now</button>
             </div>
+
+            <div id="page1cont2rightbox">
+                <img src="foodie.png" alt="">
+            </div>
+
         </div>
 
-         <!-- page 3 -->
-        <div id="page3">
-            <div id="featured">
-                <h1>featured Restaurants</h1>
+        <div id="searchbox">
+            <input type="text" placeholder="Enter your location">
 
-                <div id="featuredcont">
-                    <div class="featuredcontbox">
-                        <img src="Pizza Place.jpg">
-                        <p><strong>Pizza Place</strong></p>
-                        <p>Pizza, Italian</p>
-                        <p>&#11088; 4.8</p>
-                    </div>
+            <select>
+                <option>All Categories</option>
+                <option>Pizza</option>
+                <option>Burger</option>
+                <option>Sushi</option>
+            </select>
 
-                     <div class="featuredcontbox">
-                        <img src="Burger Hub.jpg">
-                        <p><strong>Burger Hub</strong></p>
-                        <p>Burgers, Fast Food</p>
-                        <p>&#11088; 4.6</p>
-                    </div>
+            <button>Search</button>
+        </div>
+    </div>
 
-                     <div class="featuredcontbox">
-                        <img src="Sushi World.jpg">
-                        <p><strong>Sushi World</strong></p>
-                        <p>Sushi, Japanese</p>
-                        <p>&#11088; 4.7</p>
-                    </div>
+    <!-- Category -->
+    <div id="page2">
+        <h1>Browse by Category</h1>
 
-                     <div class="featuredcontbox">
-                        <img src="Spice Route.jpg">
-                        <p><strong>Spice Route</strong></p>
-                        <p>Indian, Curry</p>
-                        <p>&#11088; 4.5</p>
-                    </div>
-                </div>
+        <div id="page2categories">
+
+            <div class="page2categorybox">
+                <img src="Pizza.jpg">
+                <p>Pizza</p>
             </div>
 
-            <div id="promo">
-                <h1>Promo Offers</h1>
-                <div id="promocont">
-                    <div class="promocontbox">
-                        <img src="Party Popper.png" width="35" height="30">
-                        <p><strong>Get 30% OFF on your first order</strong></p>
-                    </div>
-
-                    <div class="promocontbox">
-                        <img src="Delivery Truck.png" width="35" height="30">
-                        <p><strong>Free delivery on orders above <br>$20</strong></p>
-                    </div>
-
-                    <div class="promocontbox">
-                        <img src="Small Burger.png" width="35" height="30">
-                        <p><strong>Buy 1 Get 1 Free on Burgers <br>every friday</strong></p>
-                    </div>
-                </div>
+            <div class="page2categorybox">
+                <img src="Burger.jpg">
+                <p>Burgers</p>
             </div>
+
+            <div class="page2categorybox">
+                <img src="Sushi.jpg">
+                <p>Sushi</p>
+            </div>
+
+            <div class="page2categorybox">
+                <img src="Indian.jpg">
+                <p>Indian</p>
+            </div>
+
+            <div class="page2categorybox">
+                <img src="Chinese.jpg">
+                <p>Chinese</p>
+            </div>
+
+            <div class="page2categorybox">
+                <img src="Desserts.jpg">
+                <p>Desserts</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div id="page3">
+
+        <h1>Featured Restaurants</h1>
+
+        <div id="featuredcont">
+
+            <div class="featuredcontbox">
+                <img src="Pizza Place.jpg">
+                <p><strong>Pizza Palace</strong></p>
+                <p>Pizza, Italian</p>
+                <p>⭐4.8</p>
+            </div>
+
+            <div class="featuredcontbox">
+                <img src="Burger Hub.jpg">
+                <p><strong>Burger Hub</strong></p>
+                <p>Burgers, Fast Food</p>
+                <p>⭐4.6</p>
+            </div>
+
+            <div class="featuredcontbox">
+                <img src="Sushi World.jpg">
+                <p><strong>Sushi World</strong></p>
+                <p>Sushi, Japanese</p>
+                <p>⭐4.7</p>
+            </div>
+
+            <div class="featuredcontbox">
+                <img src="Spice Route.jpg">
+                <p><strong>Spice Route</strong></p>
+                <p>Indian, Curry</p>
+                <p>⭐4.5</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Promo -->
+    <div id="promo">
+
+        <h1>Promo Offers</h1>
+
+        <div id="promocont">
+
+            <div class="promocontbox">
+                <p>🎉 Get 30% OFF on your first order!</p>
+            </div>
+
+            <div class="promocontbox">
+                <p>🚚 Free delivery on orders above $20</p>
+            </div>
+
+            <div class="promocontbox">
+                <p>🍔 Buy 1 Get 1 Free every Friday</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div id="page4">
+
+        <h1>What Our Customers Say</h1>
+
+        <div id="page4cont2">
+
+            <div class="page4cont2boxes">
+                <img src="user1.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Foodie makes ordering food easy and quick!</p>
+                <h3>Sarah M.</h3>
+            </div>
+
+            <div class="page4cont2boxes">
+                <img src="user2.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Great selection of restaurants and offers.</p>
+                <h3>James L.</h3>
+            </div>
+
+            <div class="page4cont2boxes">
+                <img src="user3.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>The app is super user-friendly and amazing.</p>
+                <h3>Priya S.</h3>
+            </div>
+
         </div>
 
-        <!-- page 4 -->
-         <div id="page4">
-            <h1>What Our Customers Say</h1>
-            <div id="page4cont2">
-                <div class="page4cont2boxes">
-                    <img src="user4.jpg" height="300">
-                    <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
-                    <p>"Foodie makes ordering food so <br>easy and quick! The delivery is <br>always on the time and food is <br>hot"</p>
-                    <p><strong>Jitesh Kr.</strong></p>
-                </div>
+    </div>
 
-                <div class="page4cont2boxes">
-                    <img src="user1.jpg" height="300">
-                    <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
-                    <p>"Great selection of restaurants and <br>amazing offers. Highly <br>recommend to all food lovers!"</p>
-                    <p><strong>Virat Kohli</strong></p>
-                </div>
+    <!-- App Section -->
+    <div id="appsection">
 
-                <div class="page4cont2boxes">
-                    <img src="user2.jpg" height="300">
-                    <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
-                    <p>"The app is super user-friendly and the Customer support is fantastic.Love Foodie!"</p>
-                    <p><strong>Rohit Sharma</strong></p>
-                </div>
-            </div>
+        <div id="apptext">
+            <h1>Get the Foodie App</h1>
+            <p>Order food on the go! Download our app now.</p>
+        </div>
 
-            <div id="page4cont3"></div>
-         </div>
-    </div>            
+        <div id="appimage">
+            <img src="mobile.png">
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footerbox">
+            <h3>Cities Served</h3>
+            <p>New York</p>
+            <p>Los Angeles</p>
+            <p>Chicago</p>
+            <p>Houston</p>
+        </div>
+
+        <div class="footerbox">
+            <h3>Contact</h3>
+            <p>Email: support@foodie.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+
+        <div class="footerbox">
+            <h3>Follow Us</h3>
+            <p>🌐 📱 📷</p>
+        </div>
+
+    </footer>
+
+</div>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
