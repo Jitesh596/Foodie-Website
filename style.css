@@ -220,7 +220,7 @@
     }
 
     #page4 h1{
-        font-size: 4opx;
+        font-size: 40px;
         margin-top: 30px;
     }
 
@@ -229,9 +229,9 @@
         gap: 20px;
     }
 
-    .page4cont2boxes{
+.page4cont2boxes{
         width: 200px;
-    }
+}
 
 
 
@@ -241,4 +241,3 @@
 
 
 
-    
